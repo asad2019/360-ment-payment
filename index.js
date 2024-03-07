@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 app.get('/subscribe/:planName/:token', async (req, res) => {
   const { planName, token } = req.params;
-  if(token="X01BI_jwrrM6XGQJmmGNvxsRZOv4XmJgYU2gmvhn7xU3C2hy"){
+  if(token=="X01BI_jwrrM6XGQJmmGNvxsRZOv4XmJgYU2gmvhn7xU3C2hy"){
     const planData = plans[planName];
   
     try {
